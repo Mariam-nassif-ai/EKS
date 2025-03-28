@@ -1,5 +1,5 @@
 
-# Refer to VPC Module
+# Refer to VPC Module - Jenkins
 module "vpc" {
   source               = "./modules/vpc"
   vpc_cidr             = "10.0.0.0/16"
