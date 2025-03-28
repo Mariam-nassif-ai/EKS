@@ -10,7 +10,7 @@ module "vpc" {
 
 
 
-# Refer to EKS Module
+# Refer to EKS Module - Jenkins
 module "eks" {
   source       = "./modules/eks"
   cluster_name = "my-eks-cluster"
